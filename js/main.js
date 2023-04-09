@@ -1,0 +1,1 @@
+$(".navbar.navbar-light .navbar-nav .nav-item .nav-link div div .icon-default").css({"stroke":"red"})
