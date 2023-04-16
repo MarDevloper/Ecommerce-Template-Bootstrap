@@ -20,12 +20,24 @@ body,
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
-  background-color: hsla(332, 72%, 56%, 0.904) !important;
+  background-color: hsla(332, 88%, 29%, 0.904) !important;
 }
  .container .policy__container{
   font-size: 1.4rem;
   color: rgba(0, 0,0,.8);
-  line-height: 2.3;
+  line-height: 2;
   font-weight: 400;
-
+ }
+ .navbar-nav,.navbar{
+ transition-duration: .3s !important;
+ border-radius: 10px;
+ }
+ .navbar-nav .nav-item .nav-link:hover {
+  background-color: rgb(85, 82, 82) !important;
+ }
+ .policy {
+  border-radius: 10px;
+ }
+ .shadow {
+  box-shadow:0 1px 3px rgb(206, 199, 202) !important;
  }
