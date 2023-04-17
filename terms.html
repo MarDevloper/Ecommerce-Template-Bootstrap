@@ -2,229 +2,324 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <style type="text/css">
-    html,
-    body,
-    header,
-    .carousel {
-      height: 60vh;
-    }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        html,
+        body,
+        header,
+        .carousel {
+            height: 60vh;
+        }
 
-    @media (max-width: 740px) {
+        @media (max-width: 740px) {
 
-      html,
-      body,
-      header,
-      .carousel {
-        height: 100vh;
-      }
-    }
+            html,
+            body,
+            header,
+            .carousel {
+                height: 100vh;
+            }
+        }
 
-    @media (min-width: 800px) and (max-width: 850px) {
+        @media (min-width: 800px) and (max-width: 850px) {
 
-      html,
-      body,
-      header,
-      .carousel {
-        height: 100vh;
-      }
-    }
-  </style>
+            html,
+            body,
+            header,
+            .carousel {
+                height: 100vh;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
-    <div class="container-fluid border border-info">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top shadow navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container-fluid p-0">
 
-      <!-- Brand -->
-      <a class="navbar-brand waves-effect" href="https://cawmi.com/">
-        <img class="d-block ml-n4" src="cawmi.svg" width="230" alt="cawmi brand logo" />
-
-      </a>
-
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <!-- Left -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link waves-effect" href="/">Home
-              <span class="sr-only">(current)</span>
+            <!-- Brand -->
+            <a class="navbar-brand waves-effect" href="https://cawmi.com/">
+                <img class="ml-n4" src="cawmi.svg" width="180" alt="cawmi brand logo" />
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://cawmi.com/Womens-Clothing-c147971366" target="_blank">Women's
-              Clothing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://cawmi.com/Accessories-c147976322"
-              target="_blank">Accessories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://cawmi.com/Kids-&-Babies-c148055819" target="_blank">Kids &
-              Babies</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://cawmi.com/Home-&-Living-c148028034" target="_blank">Home &
-              Living</a>
-          </li>
-        </ul>
 
-        <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a class="nav-link waves-effect">
-              <div class="ec-cart-widget mt-n2"></div>
-              <div>
-                <script data-cfasync="false" type="text/javascript"
-                  src="https://app.ecwid.com/script.js?86135083&data_platform=code&data_date=2023-04-01"
-                  charset="utf-8"></script>
-                <script type="text/javascript">Ecwid.init();</script>
-              </div>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.instagram.com/cawmishop/" class="nav-link waves-effect" target="_blank">
-              <i class="fab fa-instagram fa-2x" style="color: rgb(233, 51, 151);"></i>
-            </a>
-          </li>
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        </ul>
+            <!-- Links -->
+            <div class="collapse navbar-collapse d-lg-flex justify-content-lg-between" id="navbarSupportedContent">
 
-      </div>
+                <!-- Left -->
+                <ul class="navbar-nav border px-1 py-2">
+                    <li class="nav-item active">
+                        <a class="nav-link waves-effect" href="/">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect" href="https://cawmi.com/Womens-Clothing-c147971366"
+                            target="_blank">Women's
+                            Clothing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect" href="https://cawmi.com/Accessories-c147976322"
+                            target="_blank">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect" href="https://cawmi.com/Kids-&-Babies-c148055819"
+                            target="_blank">Kids &
+                            Babies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect" href="https://cawmi.com/Home-&-Living-c148028034"
+                            target="_blank">Home &
+                            Living</a>
+                    </li>
+                </ul>
 
-    </div>
-  </nav>
-  <!-- Navbar -->
+                <!-- Right -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect">
+                            <div class="ec-cart-widget mt-n2"></div>
+                            <div>
+                                <script data-cfasync="false" type="text/javascript"
+                                    src="https://app.ecwid.com/script.js?86135083&data_platform=code&data_date=2023-04-01"
+                                    charset="utf-8"></script>
+                                <script type="text/javascript">Ecwid.init();</script>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.instagram.com/cawmishop/" class="nav-link waves-effect" target="_blank">
+                            <i class="fab fa-instagram fa-2x" style="color: rgb(233, 51, 151);"></i>
+                        </a>
+                    </li>
 
-  <!--Carousel Wrapper-->
-  <div id="carousel-example-1z" class="carousel slide carousel-fade pt-4" data-ride="carousel">
+                </ul>
 
-    <!--Indicators-->
-
-    <!--Third slide-->
-
-    <!--Main layout-->
-    <main>
-
-      <div class="container mt-4 pt-4">
-        <section class="m-4 pt-5">
-          <div class="policy__container">
-            <div class="policy__title text-center">
-              <h1>Refund policy</h1>
             </div>
 
-            <div class="policy__body m-4">
-              <div class="rt">
-                <p>Thanks for shopping at MesadeVida.com</p>
-                <p>If you are not entirely satisfied with your purchase, we’re here to help.</p>
-                <p><strong>Returns</strong></p>
-                <p>You have 7 calendar days to return an item from the date you received it.</p>
-                <p>To be eligible for a return, your item must be unused and in the same condition that you received it.
-                  Your item must be in the original packaging. Your item needs to have the receipt or proof of
-                  purchase.<br><br><strong>Refunds</strong></p>
-                <p>Once we receive your item, we will inspect it and notify you that we have received your
-                  returned<br>item. We will immediately notify you on the status of your refund after inspecting the
-                  item.<br>If your return is approved, we will initiate a refund to your credit card (or original method
-                  of<br>payment). You will receive the credit within a certain amount of days, depending on your card
-                  issuer’s policies.<br><br><strong>Shipping</strong></p>
-                <p>You will be responsible for paying for your own shipping costs for returning your item.
-                  Shipping<br>costs are non refundable. If you receive a refund, the cost of return shipping will be
-                  deducted from your refund.</p>
-                <p>&nbsp;<br></p>
-                <p><strong>Return Address</strong><br>Mesa de Vida LLC<br>3784 Mission Ave<br>Suite 148
-                  #602<br>Oceanside, CA 92058</p>
-                <p>&nbsp;<br></p>
-                <p><strong>Damaged Items</strong></p>
-                <p>It is rare for your order to arrive damaged, but sometimes the journey to your home can be rough and
-                  out of our control. (I always say I wish I could hand-deliver each and every order!) If our products
-                  arrived from an order Mesa de Vida processed in a damaged, spoiled or contaminated state in any way,
-                  please contact us right away and we will send you a replacement immediately. We want to make it right!
-                  You will be asked to fill out a short claim form and provide a photo of the damage so we can get
-                  reimbursed if it was a shipping damage issue.</p>
-                <p>If you purchased a jar of Mesa de Vida at a retailer or other vendor while we are not responsible for
-                  the condition of the product, we do want to know and make it right for you. We may facilitate a refund
-                  from the store/vendor you purchased our product from, and we definitely want to know where and when
-                  you purchased it so we can follow up with the retailer/vendor to make sure they are properly handling
-                  the products. We appreciate you letting us know!</p>
-                <p><strong>Contact us</strong></p>
-                <p>Email us through our&nbsp;<a href="/pages/contact" title="Contact">contact page&nbsp;</a>with any
-                  questions, we want to make you happy and thank you for the opportunity to make your order right for
-                  you!</p>
-              </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1z" class="carousel slide carousel-fade pt-4" data-ride="carousel">
+
+        <!--Indicators-->
+
+        <!--Third slide-->
+
+        <!--Main layout-->
+        <main>
+
+            <div class="container pt-2 px-lg-5" style="margin-top: 6rem !important;">
+                <section class="pt-5 mx-md-5 border policy">
+                    <div class="policy__container container m-md-4 p-4">
+                        <div class="policy__title text-center">
+                            <h1>PRIVACY POLICY</h1>
+                        </div>
+
+                        <div class="policy__body px-4">
+                            <div class="article-policy rt">
+                                <h4>OVERVIEW</h4>
+                                <p>Welcome to CAWMI website. Throughout the site, the terms “we”, “us” and “our”
+                                    refer to CAWMI. Please read the following terms of service (“terms”) as they
+                                    govern your use of our site. To make these terms easier to read, the Site and our
+                                    services and content are collectively called the "Services". By using this site, you
+                                    agree to follow and be bound by the following rules below. If you do not agree to
+                                    these terms, please do not use this site in any way.</p>
+                                <p>We may update the Terms at any time. Updated terms will be posted to the Site, or you
+                                    may be notified via email. It’s important that you review the Terms whenever we
+                                    update them or you use the Services. If you continue to use the Services after we
+                                    have posted updated Terms, you are agreeing to be bound by the updated Terms. If you
+                                    don’t agree to be bound by the updated Terms, then you may not use the Services
+                                    anymore. Because our Services are evolving over time we may change or discontinue
+                                    all or any part of the Services, at any time and without notice, at our sole
+                                    discretion.</p>
+                                <h4>PRIVACY POLICY</h4>
+                                <h5>CUSTOMER SATISFACTION</h5>
+                                <p>Please refer to our <a href="https://cawmi.com/pages/privacy-policy"
+                                        target="_blank" title="CAWMI Privacy Policy"
+                                        rel="noopener noreferrer">Privacy Policy</a> for information on how we collect,
+                                    use and disclose information from our users. You acknowledge and agree that your use
+                                    of the Services is subject to our Privacy Policy.</p>
+                                <h4>USAGE RESTRICTIONS</h4>
+                                <p>All of the content that appears on CAWMI web site, including all visuals,
+                                    text, audio and video clips are subject to copyright protections and /or other
+                                    intellectual property rights or licenses held by CAWMI. The entire content
+                                    of CAWMI web site is copyrighted as a collective work under U.S. copyright
+                                    laws. CAWMI grants you a limited license to access and make personal use of
+                                    the content on this website. Content of CAWMI website is intended solely for
+                                    the personal, noncommercial use by the users of our site.</p>
+                                <h4>PAYMENTS</h4>
+                                <p>When you make a purchase through our Services, you authorize us or our third party
+                                    payment processor to charge your payment method for any such purchases (plus any
+                                    applicable taxes and other charges) that may be accrued by or in connection with
+                                    your purchase. You are responsible for the timely payment of all fees and for
+                                    providing a valid method of payment. All prices, fees and any applicable taxes and
+                                    other charges are payable in your selected currency at checkout. When you initiate a
+                                    purchase transaction via the Services, you will be asked to provide customary
+                                    billing information such as your name, billing address, and credit card information.
+                                    You may also need to provide additional information to verify your identity before
+                                    completing your transaction. If you are completing the purchase using a third party
+                                    payment processor, that processor’s terms and conditions apply to your payment
+                                    transaction.</p>
+
+                                <p>Our products are sold in limited quantities and availabilities. We have done our best
+                                    to display our items as accurately as possible on the site but please be aware,
+                                    variations in style, color, and size may occur as each item is hand-crafted. If you
+                                    are not satisfied your purchase, please contact <a
+                                        href="mailto:contact@cawmi.com">contact@tcawmi.com</a>.</p>
+                                <h4>PROMOTIONS</h4>
+                                <p>We reserve the right to refuse, suspend, or revoke promotional offers at anytime.</p>
+                                <p><strong>The Sleep Event:</strong> For a limited time receive up to 20% off Bedding.
+                                    The event runs from 3/13/2023 - 3/27/2023 at midnight CST. All products are marked
+                                    to sell, no code required. These products are not eligible for additional discounts
+                                    with the exception of the Trade discount. Please refer to individual product details
+                                    for returns and exchange information. Select styles are final sale.</p>
+                                <h4>SHIPPING &amp; RETURNS</h4>
+                                <p>Please refer to our <a href="https://www.cawmi.com/pages/shipping"
+                                        target="_blank" title="CAWMI Shipping and Returns"
+                                        rel="noopener noreferrer">Shipping &amp; Returns Policy</a> for additional
+                                    details on what to expect when receiving or returning a CAWMI item.</p>
+                                <h4>SITE USE</h4>
+                                <p>With use of this site, you agree that no comments or other user submissions submitted
+                                    by you to CAWMI website will violate any right of any third party, including
+                                    copyright, trademark, privacy or other personal rights. You further agree that no
+                                    comments submitted by you to the site will be or contain libelous or otherwise
+                                    unlawful, abusive or obscene material. You are and shall remain solely responsible
+                                    for the content of any comments you make.</p>
+                                <h4>USER SUBMISSIONS</h4>
+                                <p>CAWMI strives to create an interactive relationship with the members of its
+                                    site and services. User comments, tagged media, feedback, suggestions, ideas, and
+                                    other submissions disclosed, submitted or offered to CAWMI on or by this
+                                    site shall be and remain CAWMI property. Users assign all property rights
+                                    and interests to CAWMI allowing our company unlimited use, commercial or
+                                    otherwise, of any comments. Furthermore, CAWMI shall be under no obligation
+                                    (1) to maintain any comments in confidence; (2) to pay to users any compensation for
+                                    any comments; or (3) to respond to any user comments.</p>
+                                <p>If you choose to publicly share any images of any CAWMI products through any
+                                    social media website or other online or publicly available service, including any
+                                    such image accompanied by a hashtag (i.e., a word or phrase preceded by “#”)
+                                    reference using any of our trademarks or any other terms, slogans or keywords
+                                    referencing CAWMI or its products, you hereby grant to CAWMI a
+                                    worldwide, royalty-free, fully paid-up, non-exclusive, perpetual, irrevocable,
+                                    transferable and fully sublicensable (through multiple tiers) license, without
+                                    additional consideration to you or any third party, to store, reproduce, distribute,
+                                    perform, and display (publicly or otherwise), create derivative works of, adapt,
+                                    modify, and otherwise use and exploit such photos, in any format or media now known
+                                    or hereafter developed, in connection with CAWMI's (and its successors’,
+                                    affiliates’ and designees’) business.&nbsp;</p>
+                                <h4>CORRECTION OF SITE ERRORS</h4>
+                                <p>The information on CAWMI website may contain typographical errors or
+                                    inaccuracies. We reserve the right to update any information we see fit at any time
+                                    without prior notice. Please note that such errors may relate to product
+                                    information, pricing and availability. In these instances, we shall have the right
+                                    to terminate any orders involving pricing errors or inaccuracies. We apologize for
+                                    any inconveniences.</p>
+                                <h4>INDEMNITY</h4>
+                                <p>By use of this site, you agree to indemnify and hold CAWMI (and its officers,
+                                    directors, agents, subsidiaries, joint ventures, and employees) harmless from any
+                                    claim or demand, as well as losses, expenses, damages and costs, resulting from any
+                                    violation of these terms of service or any activity related to your account
+                                    (including negligent or wrongful conduct).</p>
+                                <h4>MODIFICATION/TERMINATION OF THE SITE</h4>
+                                <p>In the event of termination, you will still be bound by your obligations under these
+                                    terms of service, including the warranties made by you, and by the disclaimers and
+                                    limitations of liability. CAWMI shall not be liable to you or any
+                                    third-party for any termination of your access.</p>
+                                <h4>THIRD-PARTY LINKS</h4>
+                                <p>To improve our site, CAWMI may use and promote services provided by outside
+                                    third parties. However, even if the third party is affiliated with CAWMI, we
+                                    do not control these services and make no representations regarding these persons or
+                                    entities. We are not liable or responsible for the accuracy, completeness,
+                                    timeliness, reliability or availability of, any such parties. Outside sites linked
+                                    on our site, all of which have separate privacy and data collection practices, are
+                                    only for your convenience and therefore you access them at your own risk.</p>
+                                <h4>LIMITATION OF LIABILITY</h4>
+                                <p>CAWMI shall not be liable to you for any direct, indirect, incidental,
+                                    special, consequential or exemplary damages that result from the use of, or the
+                                    inability to use, the materials and services on this site or the performance of any
+                                    its products (even if CAWMI has been advised of the possibility of such
+                                    damages).</p>
+                                <h4>CONTACT US</h4>
+                                <p>Questions about the Terms of Service should be sent to us at&nbsp;<a
+                                        href="mailto:contact@cawmi.com">contact@cawmi.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             </div>
-          </div>
-        </section>
+        </main>
+        <!--Main layout-->
 
-      </div>
-    </main>
-    <!--Main layout-->
+        <!--Footer-->
+        <footer class="page-footer text-center p-4 mt-4 pb-0 wow fadeIn">
 
-    <!--Footer-->
-    <footer class="page-footer text-center pt-3 mt-4 wow fadeIn">
+            <!-- Social icons -->
+           <ul class="list-group d-inline-flex flex-row">
+            <li class="list-group-item  border-0"><a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="list-group-item border-0"><a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            <li class="list-group-item border-0"><a href=""><i class="fab fa-pinterest" aria-hidden="true"></i></a></li>
+           </ul>
+            <!-- Social icons -->
 
-      <!-- Social icons -->
-      <div class="pb-4">
-        <a href="https://facebook.com/cawmistore/" target="_blank">
-          <i class="fab fa-facebook-f mr-3"></i>
-        </a>
+            <!--Copyright-->
+            <div class="footer my-3 pb-0 text-capitalize">
+                <ul class="m-0 list-group font-small">
+                    <li class="list-group-item border-0"><a href="">terms of use</a></li>
+                    <li class="list-group-item border-0"><a href="">privacy policy</a></li>
+                    <li class="list-group-item border-0"><a href="">refund policy</a></li>
+                </ul>
+               <ul class="list-group d-inline-flex flex-row flex-wrap border ml-auto mr-auto">
+                <li class="list-group-item"><img src="img/visa-light-noborder.800c92eb.svg" alt=""></li>
+                <li class="list-group-item"><img src="img/mastercard-light-noborder.38efa93e.svg" alt=""></li>
+                <li class="list-group-item"><img src="img/american-express-light-noborder.584e64a4.svg" alt=""></li>
+                <li class="list-group-item"><img src="img/paypal-light-noborder.272c102f.svg" alt=""></li>
+                <li class="list-group-item"><img src="img/maestro-light-noborder.5a81a5e2.svg" alt=""></li>
+                <li class="list-group-item"><img src="img/discover-light-noborder.61060d92.svg" alt=""></li>
+            </ul>
+                <p class="p-3 m-0 font-small">CAWMI <i class="fa fa-copyright" aria-hidden="true"></i> All Rights Reserved</p>
+            </div>
+            <!--/.Copyright-->
 
-        <a href="https://www.instagram.com/cawmishop/" target="_blank">
-          <i class="fab fa-instagram mr-3"></i>
-        </a>
+        </footer>
+        <!--/.Footer-->
 
-        <a href="https://www.pinterest.com/cawmishop/" target="_blank">
-          <i class="fab fa-pinterest mr-3"></i>
-        </a>
-
-      </div>
-      <!-- Social icons -->
-
-      <!--Copyright-->
-      <div class="footer-copyrigh py-3">
-        2023 © CAWMI
-      </div>
-      <!--/.Copyright-->
-
-    </footer>
-    <!--/.Footer-->
-
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Initializations -->
-    <script src="js/main.js"></script>
-    <script type="text/javascript">
-      // Animations initialization
-      new WOW().init()
-    </script>
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- Initializations -->
+        <script src="js/main.js"></script>
+        <script type="text/javascript">
+            // Animations initialization
+            new WOW().init()
+        </script>
 </body>
 
 </html>
