@@ -15,6 +15,10 @@
  *
  * Tutorials: https://mdbootstrap.com/education/bootstrap/
  *
+ * Getting started: https://mdbootstrap.com/docs/jquery/getting-started/download/
+ *
+ * Tutorials: https://mdbootstrap.com/education/bootstrap/
+ *
  * Templates: https://mdbootstrap.com/templates/
  *
  * Support: https://mdbootstrap.com/forums/forum/support/

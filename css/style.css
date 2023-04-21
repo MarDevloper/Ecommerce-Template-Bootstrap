@@ -1,6 +1,32 @@
 /* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
 html,
 body,
+header,
+.carousel {
+    height: 60vh;
+}
+
+@media (max-width: 740px) {
+
+    html,
+    body,
+    header,
+    .carousel {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+
+    html,
+    body,
+    header,
+    .carousel {
+        height: 100vh;
+    }
+}
+html,
+body,
 .view {
   height: 100%; }
 
@@ -49,6 +75,7 @@ body,
  }
  .navbar-nav .nav-item .nav-link:hover {
   background-color: rgb(85, 82, 82) !important;
+  color:white !important;
  }
  .policy {
   border-radius: 10px;
@@ -62,4 +89,3 @@ body,
  .list-group {
   border-radius: 10px;
  }
- 
